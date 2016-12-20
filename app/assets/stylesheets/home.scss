@@ -76,8 +76,15 @@ header .dropdown-menu {
 h1 {
   font-size:50px;
 }
-
-
+.panel-body:hover{
+  background-color: black;
+}
+.lead:hover{
+  color:white;
+}
+.move li:hover{
+  color:white;
+}
 .divider {
   height:100px;
 }
@@ -187,7 +194,9 @@ section {
 }
 #lien{
 color:white;
-
+}
+.white-link{
+color:white;
 }
 
 
