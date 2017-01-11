@@ -1,0 +1,14 @@
+<div id="wrap">
+  <header class="masthead">
+    <div class="container">
+    </div>
+  </header>
+</div>
+
+
+<% for user in @users do %>
+  <h1><%= user.first_name %><%= user.last_name %></h1>
+  <h1><%= user.place %></h1>
+  <h1><%= user.email %></h1>
+<% end %>
+
